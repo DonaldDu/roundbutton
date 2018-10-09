@@ -8,13 +8,11 @@ import android.graphics.Rect;
 import android.graphics.RectF;
 import android.graphics.drawable.GradientDrawable;
 import android.util.AttributeSet;
-import android.view.Gravity;
-import android.widget.TextView;
 
 import ezy.library.roundbutton.R;
 
 
-public final class RoundButton extends TextView {
+public final class RoundButton extends android.support.v7.widget.AppCompatTextView {
     public RoundButton(Context context) {
         this(context, null);
     }
@@ -41,7 +39,7 @@ public final class RoundButton extends TextView {
         a.recycle();
 
         setSingleLine(true);
-        setGravity(Gravity.CENTER);
+//        setGravity(Gravity.CENTER);
 
         RoundDrawable rd = new RoundDrawable(cornerRadius == -1);
         rd.setCornerRadius(cornerRadius == -1 ? 0 : cornerRadius);
@@ -87,7 +85,7 @@ public final class RoundButton extends TextView {
     }
 
     private static class RoundDrawable extends GradientDrawable {
-        private boolean mIsStadium = false;
+        private boolean mIsStadium;
 
         private ColorStateList mSolidColors;
         private int mFillColor;
