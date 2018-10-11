@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingTop="20dp">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,22 +15,23 @@
             style="@style/RoundButton"
             android:text="Text"
             app:btnCornerRadius="10dp"
+            app:btnCornerRadiusTopRight="20dp"
             app:btnPressedRatio="0.8"
-            app:btnSolidColor="#3F51B5"/>
+            app:btnSolidColor="#3F51B5" />
 
         <ezy.ui.view.RoundButton
             style="@style/RoundButton"
             android:text="Text"
             app:btnCornerRadius="stadium"
             app:btnPressedRatio="0.8"
-            app:btnSolidColor="#9C27B0"/>
+            app:btnSolidColor="#9C27B0" />
 
         <ezy.ui.view.RoundButton
             style="@style/RoundButton"
             android:text="Text"
             app:btnCornerRadius="stadium"
             app:btnPressedRatio="0.8"
-            app:btnSolidColor="#03A9F4"/>
+            app:btnSolidColor="#03A9F4" />
 
         <ezy.ui.view.RoundButton
             style="@style/RoundButton"
@@ -38,17 +39,17 @@
             android:text="Text"
             app:btnCornerRadius="10dp"
             app:btnPressedRatio="0.9"
-            app:btnSolidColor="#4CAF50"/>
+            app:btnSolidColor="#4CAF50" />
 
         <ezy.ui.view.RoundButton
             style="@style/RoundButton"
-            android:layout_width="50dp"
+            android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_weight="0"
             android:text="Text"
             app:btnCornerRadius="stadium"
             app:btnPressedRatio="0.9"
-            app:btnSolidColor="@color/bg"/>
+            app:btnSolidColor="@color/bg" />
     </LinearLayout>
 
     <LinearLayout
@@ -63,7 +64,7 @@
             android:textColor="#3F51B5"
             app:btnCornerRadius="10dp"
             app:btnPressedRatio="1.5"
-            app:btnStrokeColor="#3F51B5"/>
+            app:btnStrokeColor="#3F51B5" />
 
         <ezy.ui.view.RoundButton
             style="@style/RoundButton.Two"
@@ -73,7 +74,7 @@
             app:btnPressedRatio="0.5"
             app:btnStrokeColor="#9C27B0"
             app:btnStrokeDashGap="3dp"
-            app:btnStrokeDashWidth="6dp"/>
+            app:btnStrokeDashWidth="6dp" />
 
         <ezy.ui.view.RoundButton
             style="@style/RoundButton.Two"
@@ -81,7 +82,7 @@
             android:textColor="#03A9F4"
             app:btnCornerRadius="stadium"
             app:btnPressedRatio="0.9"
-            app:btnStrokeColor="#03A9F4"/>
+            app:btnStrokeColor="#03A9F4" />
 
         <ezy.ui.view.RoundButton
             style="@style/RoundButton.Two"
@@ -89,7 +90,7 @@
             android:textColor="#4CAF50"
             app:btnCornerRadius="10dp"
             app:btnPressedRatio="0.9"
-            app:btnStrokeColor="#4CAF50"/>
+            app:btnStrokeColor="#4CAF50" />
 
     </LinearLayout>
 </LinearLayout>

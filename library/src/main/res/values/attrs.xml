@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright 2016 czy1121
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,21 +18,24 @@
 
     <declare-styleable name="RoundButton">
         <!-- 背景色 -->
-        <attr name="btnSolidColor" format="color"/>
+        <attr name="btnSolidColor" format="color" />
         <!-- 边框色 -->
-        <attr name="btnStrokeColor" format="color"/>
+        <attr name="btnStrokeColor" format="color" />
         <!-- 边框厚度 -->
-        <attr name="btnStrokeWidth" format="dimension"/>
+        <attr name="btnStrokeWidth" format="dimension" />
         <!-- 边框虚线长度 -->
-        <attr name="btnStrokeDashWidth" format="dimension"/>
+        <attr name="btnStrokeDashWidth" format="dimension" />
         <!-- 边框虚线间隙 -->
-        <attr name="btnStrokeDashGap" format="dimension"/>
+        <attr name="btnStrokeDashGap" format="dimension" />
         <!-- 圆角半径，stadium 表示半径为 min(height,width) / 2-->
         <attr name="btnCornerRadius" format="dimension">
-            <enum name="stadium" value="-1"/>
+            <enum name="stadium" value="-1" />
         </attr>
+        <attr name="btnCornerRadiusTopLeft" format="dimension" />
+        <attr name="btnCornerRadiusTopRight" format="dimension" />
+        <attr name="btnCornerRadiusBottomLeft" format="dimension" />
+        <attr name="btnCornerRadiusBottomRight" format="dimension" />
         <!-- 自动计算按下(pressed)状态颜色的系数, 值为0时不自动计算 -->
-        <attr name="btnPressedRatio" format="float"/>
+        <attr name="btnPressedRatio" format="float" />
     </declare-styleable>
-
 </resources>
