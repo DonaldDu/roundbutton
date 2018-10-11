@@ -13,18 +13,19 @@
 
         <ezy.ui.view.RoundButton
             style="@style/RoundButton"
-            android:text="Text"
+            android:text="Solid enabled true"
             app:btnCornerRadius="10dp"
             app:btnCornerRadiusTopRight="20dp"
             app:btnPressedRatio="0.8"
-            app:btnSolidColor="#3F51B5" />
+            app:btnSolidColor="@color/enablity" />
 
         <ezy.ui.view.RoundButton
             style="@style/RoundButton"
-            android:text="Text"
+            android:enabled="false"
+            android:text="Solid enabled false"
             app:btnCornerRadius="stadium"
             app:btnPressedRatio="0.8"
-            app:btnSolidColor="#9C27B0" />
+            app:btnSolidColor="@color/enablity" />
 
         <ezy.ui.view.RoundButton
             style="@style/RoundButton"
@@ -60,19 +61,20 @@
 
         <ezy.ui.view.RoundButton
             style="@style/RoundButton.Two"
-            android:text="Text"
+            android:text="Stroke enabled true"
             android:textColor="#3F51B5"
             app:btnCornerRadius="10dp"
             app:btnPressedRatio="1.5"
-            app:btnStrokeColor="#3F51B5" />
+            app:btnStrokeColor="@color/enablity" />
 
         <ezy.ui.view.RoundButton
             style="@style/RoundButton.Two"
-            android:text="Text"
+            android:enabled="false"
+            android:text="Stroke enabled false"
             android:textColor="#9C27B0"
             app:btnCornerRadius="stadium"
             app:btnPressedRatio="0.5"
-            app:btnStrokeColor="#9C27B0"
+            app:btnStrokeColor="@color/enablity"
             app:btnStrokeDashGap="3dp"
             app:btnStrokeDashWidth="6dp" />
 
